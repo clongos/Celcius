@@ -1,4 +1,4 @@
-convert = raw_input("[1]Cel to Far or [2]Far to Cel?: ")
+convert = raw_input("[1]Celcius to Farenheit or [2]Farenheit to Celcius?: ")
 if convert == "1":
     value = raw_input("Value to Celcius: ")
     value = float(value)*9/5+32
